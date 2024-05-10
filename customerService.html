@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dhena's boutique</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="sidenav">
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="outfits.html">OUTFITS</a></li>
+                <li><a href="onlineOrder.html">ONLINE ORDER</a></li>
+                <li><a href="size.html">SIZE</a></li>
+                <li><a href="style.html">STYLE</a></li>
+                <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubutton">
+        <img src="images/menubutton.png" id="menu">
+    </div>
+    <div class="header">
+<img src="images/logo.png" width="200" 
+     height="150">
+        <h1>Customer service</h1>
+      </div>
+
+<section id="testimonials">
+        
+        <div class="testimonial-heading">
+           
+            <h1>Reviews from our Customers</h1>
+        </div>
+        
+        <div class="testimonial-box-container">
+            
+            <div class="testimonial-box">
+                
+                <div class="box-top">
+                    
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="images/c-1.jpg" />
+                        </div>
+                       
+                        <div class="name-user">
+                            <strong>Bipasha Basu</strong>
+                            <span>@bipashabasu</span>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="client-comment">
+                    <p>Dhena's Boutique is the biggest name in shopping brand in Detroit Metropolitan area. be it dress, showpiece or anything, Dhena's Boutique is the place.This is the biggest and oldest outlet, so popular that the adjourning area is known by its name. Must visit for all tourist. You will have authentic Bangladeshi items,good price and quality.</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-box">
+                
+                <div class="box-top">
+                    
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="images/c-2.jpg" />
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>Mehazabien Chowdhury</strong>
+                            <span>@mehazabienchow</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>A very good store, lots of products available under one roof.A pleasant atmosphere, merchandise displayed in a tasteful manner, helpful staff. Full of ethnic goods from Bangladesh. Mostly hand-made. Apparels, leather goods, decorative items, jewelry, etc. All at fixed price. There is even a cafe on the top floor. </p>
+                </div>
+            </div>
+            <div class="testimonial-box">
+                
+                <div class="box-top">
+                    
+                    <div class="profile">
+                        
+                        <div class="profile-img">
+                            <img src="images/c-3.jpg" />
+                        </div>
+                        
+                        <div class="name-user">
+                            <strong>Daniel Radcliffe</strong>
+                            <span>@danielredcliffe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p>A one of the top most shopping center of Bangladeshi product. Dhena's Boutique also specialized for hand made product with so many unique departments starting from cloths to decoration piece, jewellaries, leather product, mud mold product and many more that might go beyond your imagination. I just love to visit this place.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+<div class="container">
+<div class="testimonial-heading"> 
+<h1>Contact with Us</h1>
+</div>  
+
+<p style="text-align:center;"><img src="images/customerService.gif" width="500" height="300"><p>
+
+    <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Write your first name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Write your last name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Country</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="select">Select</option>
+	  <option value="bangladesh">Bangladesh</option>
+	  <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Message</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <p><button class="button"><a href="mailto:dhenasboutique@help.com">Send</a></button></p>
+    </div>
+    </form>
+  </div>
+
+
+
+      <script>
+        var menubutton = document.getElementById ("menubutton")
+        var menubutton = document.getElementById ("sidenav")
+        var menubutton = document.getElementById ("menu")
+        sidenav.style.right = "-250px";
+        menubutton.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right= "0";
+                menu.src ="images/closebutton.png";
+            }
+            else{
+              sidenav.style.right= "-250px";
+              menu.src ="images/menubutton.png";
+            }
+        }
+    </script>
+<footer>
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<p style="text-align:left; color:white;padding: 10px;">&copy; Copyright Dhena's Boutique</p>
+<p style="text-align:center; color:white;><a href="mailto:dhenasboutique@mail.com">dhenasboutique@mail.com</a></p>
+</footer>
+  </body>
+    </html> 

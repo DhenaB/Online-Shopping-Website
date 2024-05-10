@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dhena's Boutique</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section id="banner">
+      <div class= "bannertext">
+      <h1> Welcome to Dhena's Boutique</h1>
+      <p>One of the Best option for Bangladeshi Outfits</p>
+      <div class="bannerbutton">
+          <a href="onlineOrder.html"><span></span>Shop now</a>
+      </div>
+      </div>
+  <div id="sidenav">
+      <nav>
+          <ul>
+              <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="outfits.html">OUTFITS</a></li>
+                <li><a href="onlineOrder.html">ONLINE ORDER</a></li>
+                <li><a href="size.html">SIZE CHART</a></li>
+                <li><a href="style.html">STYLE</a></li>
+                <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+              
+          </ul>
+      </nav>
+  </div>
+  <div id="menubutton">
+      <img src="images/menubutton.png" id="menu">
+  </div>
+  </section>
+  <script>
+      var menubutton = document.getElementById ("menubutton")
+      var menubutton = document.getElementById ("sidenav")
+      var menubutton = document.getElementById ("menu")
+      sidenav.style.right = "-250px";
+      menubutton.onclick = function(){
+          if(sidenav.style.right == "-250px"){
+              sidenav.style.right= "0";
+              menu.src ="images/closebutton.png";
+          }
+          else{
+            sidenav.style.right= "-250px";
+            menu.src ="images/menubutton.png";
+          }
+      }
+  </script>
+<footer>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+    <a href="https://www.google.com/" class="fa fa-google"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+<p style="text-align:left; color:white;padding: 10px;">&copy; Copyright Dhena's Boutique</p>
+<p style="text-align:center; color:white;><a href="mailto:dhenasboutique@mail.com">dhenasboutique@mail.com</a></p>
+    </footer>
+</body>
+  </html> 
